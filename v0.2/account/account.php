@@ -10,7 +10,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-12 text-center">
-            <h1 class="mt-5">HOME: A Bootstrap 4 Starter Template</h1>
+            <h1 class="mt-5">A Bootstrap 4 Starter Template</h1>
             <p class="lead">Complete with pre-defined file paths and responsive navigation!</p>
             <ul class="list-unstyled">
                 <li>Bootstrap 4.0.0</li>
@@ -33,28 +33,6 @@
         </div>
         <div class="col-lg-12 text-center">
             <h1 class="mt-5">Home page column 2.3</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-6 text-center">
-            <h1 class="mt-5">Home page column 3.1</h1>
-        </div>
-        <div class="col-lg-6 text-center">
-            <h1 class="mt-5">Home page column 3.2</h1>
-        </div>
-        <div class="col-lg-12 text-center">
-            <h1 class="mt-5">Home page column 3.3</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-6 text-center">
-            <h1 class="mt-5">Home page column 4.1</h1>
-        </div>
-        <div class="col-lg-6 text-center">
-            <h1 class="mt-5">Home page column 4.2</h1>
-        </div>
-        <div class="col-lg-12 text-center">
-            <h1 class="mt-5">Home page column 4.3</h1>
         </div>
     </div>
 </div>

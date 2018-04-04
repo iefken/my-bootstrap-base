@@ -11,7 +11,7 @@ include_once "../templates/my.php";
 $currentTab = $_SERVER['REQUEST_URI'];
 
 $myarray = explode('/',"ignore".$currentTab);
-$currentTab = $myarray[2];
+$currentTab = $myarray[3];
 
 ?>
 
@@ -21,7 +21,7 @@ $currentTab = $myarray[2];
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 
     <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="navbar-brand" href="#">My Awesome Website</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,6 +32,7 @@ $currentTab = $myarray[2];
                         <i class="fa fa-home"></i>
                         Home</a>
                 </li>
+
                 <li class="nav-item <?php echo activeTab($currentTab,"services"); ?>">
                     <a class="nav-link" href="../services/">
                         <i class="fa fa-bolt"></i>
@@ -50,10 +51,10 @@ $currentTab = $myarray[2];
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                       aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Account</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Sign in</a>
+                        <a class="dropdown-item" href="#">Register</a>
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>

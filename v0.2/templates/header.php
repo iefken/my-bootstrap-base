@@ -11,6 +11,9 @@ $thisVersion = "0.001";
 
 ?>
 
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
 
     <meta charset="utf-8">

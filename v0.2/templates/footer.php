@@ -7,7 +7,7 @@
  */
 ?>
 
-<footer class="container-fluid">
+<footer class="container-fluid bg-dark fixed-bottom">
     <div class="row">
         CryptoRoot Bootstrap Template v<?php echo $thisVersion;?>
     </div>

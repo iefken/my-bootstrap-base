@@ -5,6 +5,7 @@
  * Date: 19.03.18
  * Time: 01:02
  */
+
 include '../templates/sessionChecker.php';
 
 ?>
@@ -24,7 +25,13 @@ include '../templates/header.php';
 
 include '../templates/navbar.php';
 
-include 'home.php';
+if($isUserLoggedIn)
+{
+    include 'account.php';
+}else{
+    include 'login.php';
+}
+
 
 include '../templates/footer.php';
 
